@@ -40,7 +40,6 @@ Manual installation:
 
 When thats running, you can open the docker desktop.
 
-
 <!-- 
 
 Not part of the course but useful to know....
@@ -53,7 +52,25 @@ To check if you have Docker installed, run command `docker ps` or `docker info` 
 
 ## [Docker Crash Course #3 - Images & Containers](https://www.youtube.com/watch?v=hhfrFvuHRPU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=3)
 
-## [Docker Crash Course #4 - Parent Images & Docker Hub]()
+### Dockers Images
+
+blueprints for containers:
+
+- Runtime evnironments
+- Application code
+- Any dependencies
+- Extra cofiguration (env variables)
+- Commands
+
+Are read only; if you need to change something in the image you would need to destory the old image and create a new image.
+
+### Docker Containers
+
+Containers run an instance of an image, and runs the application
+
+Containers are Isolated processed
+
+## [Docker Crash Course #4 - Parent Images & Docker Hub](https://www.youtube.com/watch?v=ZVQmnziXEpA&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=4)
 
 ## [Docker Crash Course #5 - The Dockerfile]()
 
