@@ -10,10 +10,48 @@
 
 - Code for the lessons here: https://github.com/iamshaunjp/docker-crash-course
 
-
 ## [Docker Crash Course #2 - Installing Docker](https://www.youtube.com/watch?v=8Ev1aXl7TGY&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=2)
 
-## [Docker Crash Course #3 - Images & Containers]()
+https://docs.docker.com/engine/install/
+
+- Harder to run on Windows
+
+Download Docker
+
+Follow WSL install instructions
+
+Search `winver` to find if you meet the requirements for WSL
+
+Use: 
+
+- Command for powershell `wsl --install`; but is buggy
+- Manual installation
+
+Manual installation: 
+
+- open powershell, right click; run as admin
+- copy and paste command
+- copy and paste command (virtual machine; and restart machine)
+- downlaod kernal and run package
+- open powershell, right click; run as admin
+- copy and paste command
+- microsoft store; search ubuntu; get; installs
+- set username/password
+
+When thats running, you can open the docker desktop.
+
+
+<!-- 
+
+Not part of the course but useful to know....
+
+### How do I know if Docker is installed Linux?
+
+To check if you have Docker installed, run command `docker ps` or `docker info` on a terminal screen to verify it is installed and running. 
+
+-->
+
+## [Docker Crash Course #3 - Images & Containers](https://www.youtube.com/watch?v=hhfrFvuHRPU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=3)
 
 ## [Docker Crash Course #4 - Parent Images & Docker Hub]()
 
