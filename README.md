@@ -1,10 +1,10 @@
-# playground-docker
+# Playground for Docker
 
 A place to learn more about docker, and try things.
 
 03/09/22 - 
 
-## resources
+## Resources
 
 - [Docker in 100 Seconds; Fireship](https://www.youtube.com/watch?v=Gjnup-PuquQ)
 
