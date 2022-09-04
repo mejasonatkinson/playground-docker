@@ -44,9 +44,9 @@ When thats running, you can open the docker desktop.
 
 Not part of the course but useful to know....
 
-### How do I know if Docker is installed Linux?
+### How do I know if Docker is installed on Linux?
 
-To check if you have Docker installed, run command `docker ps` or `docker info` on a terminal screen to verify it is installed and running. 
+To check if you have Docker installed, run the command `docker ps` or `docker info` on a terminal screen to verify it is installed and running. 
 
 -->
 
