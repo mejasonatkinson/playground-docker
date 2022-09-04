@@ -72,7 +72,28 @@ Containers are Isolated processed
 
 ## [Docker Crash Course #4 - Parent Images & Docker Hub](https://www.youtube.com/watch?v=ZVQmnziXEpA&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=4)
 
-## [Docker Crash Course #5 - The Dockerfile]()
+Images are made of layers, and the order of the images matter.
+
+### Parent image
+
+The parent image includes the OS & the runtime environment
+
+There are premade parent images which can be downloaded from the [docker hub](https://hub.docker.com/)
+
+For example, if you search [node](https://hub.docker.com/search?q=node) you will find a Image for [node](https://hub.docker.com/_/node), along with the command to pull the image down to be used (similar to how git works with github etc.).
+
+The command to pull down the image in this case is `docker pull node` you do not have to be in any specail directly to run this command.
+
+This image will then appear under images in the docker desktop app.
+
+Click Run, to run the image and generate the container; the container will appear under containers in the docker desktop app.
+
+For the container there is a number of commands that can be used including
+CLI (to interact with the commandline of the container), Stop, Restart & Delete.
+
+## [Docker Crash Course #5 - The Dockerfile](https://www.youtube.com/watch?v=G07FcRhYB2c&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=5)
+
+
 
 ## [Docker Crash Course #6 - dockerignore]()
 
