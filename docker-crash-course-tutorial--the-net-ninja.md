@@ -93,9 +93,55 @@ CLI (to interact with the commandline of the container), Stop, Restart & Delete.
 
 ## [Docker Crash Course #5 - The Dockerfile](https://www.youtube.com/watch?v=G07FcRhYB2c&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=5)
 
+The next layers; are changes to the image, you do this by creating a dockerfile.
+
+To run a Node project normally you would first run `npm install`
+then `node app.js` and that will use the node version installed on the device.
+
+BUT what if we want to use a different node version we will need to create a docker file.
+
+Dockerfile (no extension, with a capital D)
+
+If using VS Code it might be worth installing Docker Extension by Microsoft.
+
+Inside the Dockerfile, file. Write:
+
+`FROM node:17-alpine`
+
+This means get node version 17 and use the alpine distribution of linux from docker hub
+
+`COPY . /app`
+
+This means COPY the relativePath to the copyToLocation
+
+`RUN npm install`
+
+This runs a command
+
+Adding a Working directory after the FROM, allows us to simplify the COPY command
+
+`WORKDIR /app`
+
+`COPY . .`
+
+To run command after the build process is complete; for example to start the application, we use the CMD, command
+
+`CMD ["node", "app.js"]`
+
+Setting up the port the App is run on. 
+Only needed for docker desktop for port mapping.
+
+`EXPOSE 4000`
+
+In the terminal, in the same directory as the Dockerfile, 
+run `docker build -t myapp .`
+myapp is a name you can give to the app.
+. is refering to a relative path to the Dockerfile.
+
+If you open up docker desktop, you can see the Image under images.
 
 
-## [Docker Crash Course #6 - dockerignore]()
+## [Docker Crash Course #6 - dockerignore](https://www.youtube.com/watch?v=UHWCkDbN0yM&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=6)
 
 ## [Docker Crash Course #7 - Starting & Stopping Containers]()
 
