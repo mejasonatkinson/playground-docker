@@ -140,10 +140,16 @@ myapp is a name you can give to the app.
 
 If you open up docker desktop, you can see the Image under images.
 
-
 ## [Docker Crash Course #6 - dockerignore](https://www.youtube.com/watch?v=UHWCkDbN0yM&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=6)
 
-## [Docker Crash Course #7 - Starting & Stopping Containers]()
+You can avoid copying non-necessary files or folders to the docker image by creating a file called .dockerignore
+Inside this file write the file names you want to ignore:
+
+`node_modules`
+
+`*.md`
+
+## [Docker Crash Course #7 - Starting & Stopping Containers](https://www.youtube.com/watch?v=ZPEpreOpqao&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=7)
 
 ## [Docker Crash Course #8 - Layer Caching]()
 
