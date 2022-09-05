@@ -151,7 +151,37 @@ Inside this file write the file names you want to ignore:
 
 ## [Docker Crash Course #7 - Starting & Stopping Containers](https://www.youtube.com/watch?v=ZPEpreOpqao&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=7)
 
-## [Docker Crash Course #8 - Layer Caching]()
+### Create a new container
+
+In Docker Desktop, when you RUN an Image, it will ask you for more infomation including ports, this will expose the application. after setting this up, the container will be created.
+
+docker images
+
+`docker run --name myapp_container1 myapp` 
+
+(myapp, refers to the name you gave it)
+
+open up a new tab/terminal, to stop a container
+
+`docker stop myapp_container1`
+
+`docker run --name myapp_container2 -p 4000:4000 -d myapp` 
+
+<!--
+
+    Found this difficult to understand....
+
+-->
+
+localhost:4000
+
+### Stop/Start a container
+
+docker ps -a
+
+`docker start myapp_container2`
+
+## [Docker Crash Course #8 - Layer Caching](https://www.youtube.com/watch?v=_nMpndIyaBU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=8)
 
 ## [Docker Crash Course #9 - Managing Images & Containers]()
 
