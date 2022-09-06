@@ -183,7 +183,20 @@ docker ps -a
 
 ## [Docker Crash Course #8 - Layer Caching](https://www.youtube.com/watch?v=_nMpndIyaBU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=8)
 
-## [Docker Crash Course #9 - Managing Images & Containers]()
+Each line, is a new layer to the docker image in the Dockerfile.
+Changing the image.
+
+The more layers the longer it will take to create, so if somethnig has already been used docker will cache that version, so the next build wont take as long.
+
+`COPY package.json .`
+
+`RUN npm install`
+
+`COPY . .`
+
+Changing the order will improve the speed of the docker image being created.
+
+## [Docker Crash Course #9 - Managing Images & Containers](https://www.youtube.com/watch?v=4XsjXscp70o&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=9)
 
 ## [Docker Crash Course #10 - Volumes]()
 
