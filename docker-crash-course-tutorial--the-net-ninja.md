@@ -198,11 +198,46 @@ Changing the order will improve the speed of the docker image being created.
 
 ## [Docker Crash Course #9 - Managing Images & Containers](https://www.youtube.com/watch?v=4XsjXscp70o&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=9)
 
-## [Docker Crash Course #10 - Volumes]()
+`docker images` to show all the images
+
+`docker ps` to show all the running containers
+
+`docker ps -a` to show all the containers
+
+How to delete a image
+
+`docker image rm myapp`
+
+myapp = the image name
+
+Images which are being used by containers can not be deleted
+
+`docker image rm myapp -f`
+
+-f forces an image to be deleted even if it is being used by a container
+
+or you can delete the container
+
+`docker container rm myapp_container2` 
+
+You can delete multiple containers at once by listing the containers.
+
+`docker container rm myapp_container2 myapp_container3` 
+
+To delete all images, containers and volumns you can run the command:
+
+`docker system prune -a`
+
+and then confirm.
+
+`docker build -t myapp:v1 .`
+
+`docker run --name myapp_container -p 4000:4000 myapp:v1`
+
+## [Docker Crash Course #10 - Volumes](https://www.youtube.com/watch?v=Wh4BcFFr6Fc&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=10)
 
 ## [Docker Crash Course #11 - Docker Compose]()
 
 ## [Docker Crash Course #12 - Dockerizing a React App]()
 
 ## [Docker Crash Course #13 - Sharing Images on Docker Hub]()
-
