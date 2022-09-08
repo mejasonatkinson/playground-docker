@@ -236,6 +236,45 @@ and then confirm.
 
 ## [Docker Crash Course #10 - Volumes](https://www.youtube.com/watch?v=Wh4BcFFr6Fc&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=10)
 
+Images when created are read only
+
+`docker ps -a`
+
+`docker start myapp_container`
+
+`docker run` will generate a new container,
+
+`docker start` will start a existing container.
+
+Need a new image each time you make a change to the code..
+Which means destorying and recreating the image.
+
+OR you can use Volumes
+
+In the Dockerfile
+
+`FROM ...`
+
+`RUN npm install -g nodemon`
+
+`CMD ["npm", "run", "dev"]`
+
+package.json
+
+`"scripts": {`
+    `"dev": "nodemon -L app.js"`
+`},`
+
+(for windows you need the extra flag -L)
+
+`docker build -t myapp:nodemon .`
+
+`docker stop myapp:nodemon`
+
+`docker run --name myapp_container -p 4000:4000 --rm -v {absolutePath}:/app -v /app/node_modules myapp:v1`
+
+Docker compose, improves this process.
+
 ## [Docker Crash Course #11 - Docker Compose]()
 
 ## [Docker Crash Course #12 - Dockerizing a React App]()
