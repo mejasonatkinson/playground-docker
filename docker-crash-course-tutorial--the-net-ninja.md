@@ -275,8 +275,29 @@ package.json
 
 Docker compose, improves this process.
 
-## [Docker Crash Course #11 - Docker Compose]()
+## [Docker Crash Course #11 - Docker Compose](https://www.youtube.com/watch?v=TSySwrQcevM&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=12)
 
-## [Docker Crash Course #12 - Dockerizing a React App]()
+docker-compose.yaml
+
+`version: "3.8"`
+`services: `
+`   api: ` indent is important to yaml files.
+`       build: {relativePath ./api}`
+`       container_name: api_container`
+`       ports:`
+`           - '4000:4000'`
+`       volumnes:`
+`           - {relativePath ./api:/app}`
+`           - {relativePath ./app/node_modules}`
+
+In terminal `docker system prune`
+
+`docker-compose up`
+
+`docker-compose down`
+
+`docker-compose down --rmi all -v`
+
+## [Docker Crash Course #12 - Dockerizing a React App](https://www.youtube.com/watch?v=QePBbG5MoKk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=12)
 
 ## [Docker Crash Course #13 - Sharing Images on Docker Hub]()
