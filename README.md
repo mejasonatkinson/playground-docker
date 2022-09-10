@@ -2,7 +2,7 @@
 
 A place to learn more about docker, and try things.
 
-03/09/22 - 
+03/09/22 - 10/09/22
 
 ## Resources
 
