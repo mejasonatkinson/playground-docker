@@ -300,4 +300,50 @@ In terminal `docker system prune`
 
 ## [Docker Crash Course #12 - Dockerizing a React App](https://www.youtube.com/watch?v=QePBbG5MoKk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=12)
 
+.dockerignore
+
+node_modules
+
+Dockerfile
+
+FROM node:17-alpine
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+
+
+docker-compose.yaml
+
+`version: "3.8"`
+`services: `
+`   api: `
+`       build: {relativePath ./api}`
+`       container_name: api_container`
+`       ports:`
+`           - '4000:4000'`
+`       volumnes:`
+`           - {relativePath ./api:/app}`
+`           - {relativePath ./app/node_modules}`
+`   myblog: `
+`       build: {relativePath ./myblog}`
+`       container_name: myblog_container`
+`       ports:`
+`           - '3000:3000'`
+`       volumnes:` // remove on windows
+`           - {relativePath ./myblog:/app}` // wont work on windows.
+`           - {relativePath ./app/node_modules}`
+`       stdin_open: true`
+`       tty: true`
+
+docker-compose up
+
 ## [Docker Crash Course #13 - Sharing Images on Docker Hub]()
