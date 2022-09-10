@@ -346,4 +346,33 @@ docker-compose.yaml
 
 docker-compose up
 
-## [Docker Crash Course #13 - Sharing Images on Docker Hub]()
+## [Docker Crash Course #13 - Sharing Images on Docker Hub](https://www.youtube.com/watch?v=YS35VHsbS-0&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=13)
+
+hub.docker.com
+
+login/signup
+
+create repository
+
+docker push {username}/{repo-name}
+
+`docker build -t {username}/{repo-name} .`
+
+`docker images`
+
+`docker login`
+
+`docker push {username}/{repo-name}`
+
+refresh docker hub. you will see it on docker hub.
+
+`docker image rm {username}/{repo-name}`
+
+`docker images`
+
+`docker pull {username}/{repo-name}`
+
+Other topics include
+
+Deploying &
+Kubernetes
