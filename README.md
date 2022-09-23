@@ -4,6 +4,11 @@ A place to learn more about docker, and try things.
 
 03/09/22 - 10/09/22
 
+## Notes
+
+- [Docker in 100 Seconds; Fireship](docker-in-100-seconds--fireship.md)
+- [Docker Crash Course Tutorial; The Net Ninja](docker-crash-course-tutorial--the-net-ninja.md)
+
 ## Resources
 
 - [Docker in 100 Seconds; Fireship](https://www.youtube.com/watch?v=Gjnup-PuquQ)
