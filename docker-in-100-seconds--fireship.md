@@ -3,45 +3,49 @@
 
 Docker is for packaging software into containers to run reliably in any enviroment. 
 
-This answers the question how do you replicate the enviroment you are using so all the delevopers are looking at the same thing and the same problems.
+This answers the question how do you replicate the enviroment you are using, so all the delevopers are looking at the same thing and the same problems.
 
-Options: 
+There accouple of options: 
 
-- virtual machine
-- host machine
+- virtual machines
+- host machines
 - docker containers (shared kernal)
 
 Docker contains:
 
-- dockerfile
-- image
-- container
+- a dockerfile
+- a docker image
+- a docker container
 
-Inside dockerfile
+Inside a **dockerfile**
 
-Use FROM
+Use FROM for OS/Version
 
-FROM ubuntu:20.04
+`FROM ubuntu:20.04`
 
 Use RUN for terminal commands
 
-RUN apt-get install sl
+`RUN apt-get install sl`
 
 Use ENV for enviroment variables
 
-ENV PORT=8080
+`ENV PORT=8080`
 
 Use CMD for default command
 
-CMD ["echo", "Docker is easy"]
+`CMD ["echo", "Docker is easy"]`
 
-Then run: 
+Then in the terminal type:
 
-docker build -t myapp ./
+`docker build -t myapp ./`
 
 -t = name tag
 ./ = path to dockerfile
 
-And:
+This will create/build the docker.
 
-docker run myapp
+Then in the terminal type:
+
+`docker run myapp`
+
+This will run the docker.
