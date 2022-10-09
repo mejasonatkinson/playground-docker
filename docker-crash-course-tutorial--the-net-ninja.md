@@ -53,8 +53,6 @@ Containers run an instance of an image, and runs the application
 
 ## [Docker Crash Course #4 - Parent Images & Docker Hub](https://www.youtube.com/watch?v=ZVQmnziXEpA&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=4)
 
-<!--
-
 Images are made of layers, and the order of the images matter.
 
 ### Parent image
@@ -75,24 +73,20 @@ Click Run, to run the image and generate the container; the container will appea
 
 For the container there is a number of commands that can be used including
 CLI (to interact with the commandline of the container), Stop, Restart & Delete.
--->
+
 
 ## [Docker Crash Course #5 - The Dockerfile](https://www.youtube.com/watch?v=G07FcRhYB2c&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=5)
-
-<!--
-
-The next layers; are changes to the image, you do this by creating a dockerfile.
 
 To run a Node project normally you would first run `npm install`
 then `node app.js` and that will use the node version installed on the device.
 
-BUT what if we want to use a different node version we will need to create a docker file.
+BUT what if we want to use a different node version? To do this we can create a dockerfile.
 
-Dockerfile (no extension, with a capital D)
+Dockerfile (no extension, with a capital D) is a file to store instructions to tell the docker what to do.
 
-If using VS Code it might be worth installing Docker Extension by Microsoft.
+*If using VS Code it might be worth installing Docker Extension by Microsoft.*
 
-Inside the Dockerfile, file. Write:
+Inside the Dockerfile, Write:
 
 `FROM node:17-alpine`
 
@@ -110,34 +104,35 @@ Adding a Working directory after the FROM, allows us to simplify the COPY comman
 
 `WORKDIR /app`
 
-`COPY . .`
+`COPY . .` instead of `COPY . /app`
 
-To run command after the build process is complete; for example to start the application, we use the CMD, command
+To run commands after the build process is complete; for example to start the application, we use the `CMD` command
 
 `CMD ["node", "app.js"]`
 
-Setting up the port the App is run on. 
-Only needed for docker desktop for port mapping.
+Setting up the port the App is run on. can be done user the `EXPOSE` command
 
 `EXPOSE 4000`
 
-In the terminal, in the same directory as the Dockerfile, 
-run `docker build -t myapp .`
-myapp is a name you can give to the app.
-. is refering to a relative path to the Dockerfile.
+This is only needed for docker desktop; for port mapping.
 
-If you open up docker desktop, you can see the Image under images.
+In the terminal, in the same directory as the Dockerfile run:
+
+`docker build -t myapp .`
+
+`myapp` is a name you can give to the app. 
+
+The `.` is refering to a relative path to the Dockerfile.
+
+If you open up docker desktop, you will see the Image under images.
 
 ## [Docker Crash Course #6 - dockerignore](https://www.youtube.com/watch?v=UHWCkDbN0yM&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=6)
 
-You can avoid copying non-necessary files or folders to the docker image by creating a file called .dockerignore
-Inside this file write the file names you want to ignore:
+You can avoid copying non-necessary files or folders to the docker image by creating a file called `.dockerignore` inside this file write the file names you want to ignore:
 
-`node_modules`
+`node_modules` to ignore the `node_modules` folder.
 
-`*.md`
-
--->
+`*.md` to ignore all files ending in `.md` file format.
 
 ## [Docker Crash Course #7 - Starting & Stopping Containers](https://www.youtube.com/watch?v=ZPEpreOpqao&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=7)
 
@@ -238,7 +233,11 @@ and then confirm.
 
 `docker run --name myapp_container -p 4000:4000 myapp:v1`
 
+-->
+
 ## [Docker Crash Course #10 - Volumes](https://www.youtube.com/watch?v=Wh4BcFFr6Fc&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=10)
+
+<!--
 
 Images when created are read only
 
