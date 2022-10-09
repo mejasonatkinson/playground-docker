@@ -11,46 +11,27 @@
 
 ## [Docker Crash Course #2 - Installing Docker](https://www.youtube.com/watch?v=8Ev1aXl7TGY&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=2)
 
-<!--
-https://docs.docker.com/engine/install/
+As stated previously Docker is harder to run on windows
 
-- Harder to run on Windows
+**Step 1**
 
-Download Docker
+Download & Install [Docker](https://docs.docker.com/engine/install/)
 
-Follow WSL install instructions
+**Step 2**
 
-Search `winver` to find if you meet the requirements for WSL
+Install WSL
 
-Use: 
+**warning:** Make sure your machine meets the requirements for WSL by searching `winver`
 
-- Command for powershell `wsl --install`; but is buggy
-- Manual installation
+It is best to install WSL Manually as the alternative way, has been known to cause problems.
 
-Manual installation: 
+**Manual installation Steps**
 
-- open powershell, right click; run as admin
-- copy and paste command
-- copy and paste command (virtual machine; and restart machine)
-- downlaod kernal and run package
-- open powershell, right click; run as admin
-- copy and paste command
-- microsoft store; search ubuntu; get; installs
-- set username/password
+...
 
-When thats running, you can open the docker desktop.
+When thats running, you can open the Docker Desktop, which you downloaded in Step 1 if you are using a Windows or Mac Device.
 
--->
-
-<!-- 
-
-Not part of the course but useful to know....
-
-### How do I know if Docker is installed on Linux?
-
-To check if you have Docker installed, run the command `docker ps` or `docker info` on a terminal screen to verify it is installed and running. 
-
--->
+To check is docker is installed on Linux, run the command `docker ps` or `docker info` on a terminal screen to verify it is installed and running. 
 
 ## [Docker Crash Course #3 - Images & Containers](https://www.youtube.com/watch?v=hhfrFvuHRPU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=3)
 
