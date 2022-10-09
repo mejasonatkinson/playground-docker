@@ -35,7 +35,7 @@ To check is docker is installed on Linux, run the command `docker ps` or `docker
 
 ## [Docker Crash Course #3 - Images & Containers](https://www.youtube.com/watch?v=hhfrFvuHRPU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=3)
 
-### Dockers Images
+**Dockers Images**
 
 Docker images are blueprints for containers and contain:
 
@@ -47,7 +47,7 @@ Docker images are blueprints for containers and contain:
 
 A docker image is read only; meaning if you need to change something in the image you would need to destory the old image and create a new image for it to show.
 
-### Docker Containers
+**Docker Containers**
 
 Containers run an instance of an image, and runs the application
 
@@ -55,7 +55,7 @@ Containers run an instance of an image, and runs the application
 
 Images are made of layers, and the order of the images matter.
 
-### Parent image
+**Parent image**
 
 The parent image includes the OS & the runtime environment
 
@@ -136,43 +136,9 @@ You can avoid copying non-necessary files or folders to the docker image by crea
 
 ## [Docker Crash Course #7 - Starting & Stopping Containers](https://www.youtube.com/watch?v=ZPEpreOpqao&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=7)
 
-<!--
-
-### Create a new container
-
 In Docker Desktop, when you RUN an Image, it will ask you for more infomation including ports, this will expose the application. after setting this up, the container will be created.
 
-docker images
-
-`docker run --name myapp_container1 myapp` 
-
-(myapp, refers to the name you gave it)
-
-open up a new tab/terminal, to stop a container
-
-`docker stop myapp_container1`
-
-`docker run --name myapp_container2 -p 4000:4000 -d myapp` 
-
--->
-
-<!--
-
-    Found this difficult to understand....
-
--->
-
-<!--
-
-localhost:4000
-
-### Stop/Start a container
-
-docker ps -a
-
-`docker start myapp_container2`
-
--->
+...
 
 ## [Docker Crash Course #8 - Layer Caching](https://www.youtube.com/watch?v=_nMpndIyaBU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=8)
 
