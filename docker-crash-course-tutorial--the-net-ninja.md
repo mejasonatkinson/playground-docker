@@ -35,11 +35,9 @@ To check is docker is installed on Linux, run the command `docker ps` or `docker
 
 ## [Docker Crash Course #3 - Images & Containers](https://www.youtube.com/watch?v=hhfrFvuHRPU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=3)
 
-<!--
-
 ### Dockers Images
 
-blueprints for containers:
+Docker images are blueprints for containers and contain:
 
 - Runtime evnironments
 - Application code
@@ -47,15 +45,15 @@ blueprints for containers:
 - Extra cofiguration (env variables)
 - Commands
 
-Are read only; if you need to change something in the image you would need to destory the old image and create a new image.
+A docker image is read only; meaning if you need to change something in the image you would need to destory the old image and create a new image for it to show.
 
 ### Docker Containers
 
 Containers run an instance of an image, and runs the application
 
-Containers are Isolated processed
-
 ## [Docker Crash Course #4 - Parent Images & Docker Hub](https://www.youtube.com/watch?v=ZVQmnziXEpA&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=4)
+
+<!--
 
 Images are made of layers, and the order of the images matter.
 
@@ -77,6 +75,7 @@ Click Run, to run the image and generate the container; the container will appea
 
 For the container there is a number of commands that can be used including
 CLI (to interact with the commandline of the container), Stop, Restart & Delete.
+-->
 
 ## [Docker Crash Course #5 - The Dockerfile](https://www.youtube.com/watch?v=G07FcRhYB2c&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=5)
 
@@ -137,6 +136,8 @@ Inside this file write the file names you want to ignore:
 `node_modules`
 
 `*.md`
+
+-->
 
 ## [Docker Crash Course #7 - Starting & Stopping Containers](https://www.youtube.com/watch?v=ZPEpreOpqao&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=7)
 
