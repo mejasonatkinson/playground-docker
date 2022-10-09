@@ -2,16 +2,16 @@
 
 ## [Docker Crash Course #1 - What is Docker?](https://www.youtube.com/watch?v=31ieHmcTUOk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=1)
 
-- To save setup time for a project.
-- Virtual machines - has its own os and is typically slower
-- Containers are quicker but use the hosts os kernal
+- Docker is used to save setup time for a project.
+- Virtual machines has its own Operating System and is typically slower, docker containers use the hosts Operating System kernal so are often quicker.
 
-- Course uses NodeJS, Express & React
+**warning:** the hosts Operating System kernal is different on for Windows compared to Apple or other linux based Operating Systems.
 
-- Code for the lessons here: https://github.com/iamshaunjp/docker-crash-course
+[Code for the lessons can be found here](https://github.com/iamshaunjp/docker-crash-course)
 
 ## [Docker Crash Course #2 - Installing Docker](https://www.youtube.com/watch?v=8Ev1aXl7TGY&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=2)
 
+<!--
 https://docs.docker.com/engine/install/
 
 - Harder to run on Windows
@@ -40,6 +40,8 @@ Manual installation:
 
 When thats running, you can open the docker desktop.
 
+-->
+
 <!-- 
 
 Not part of the course but useful to know....
@@ -51,6 +53,8 @@ To check if you have Docker installed, run the command `docker ps` or `docker in
 -->
 
 ## [Docker Crash Course #3 - Images & Containers](https://www.youtube.com/watch?v=hhfrFvuHRPU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=3)
+
+<!--
 
 ### Dockers Images
 
@@ -71,6 +75,8 @@ Containers run an instance of an image, and runs the application
 Containers are Isolated processed
 
 ## [Docker Crash Course #4 - Parent Images & Docker Hub](https://www.youtube.com/watch?v=ZVQmnziXEpA&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=4)
+
+<!--
 
 Images are made of layers, and the order of the images matter.
 
@@ -151,6 +157,8 @@ Inside this file write the file names you want to ignore:
 
 ## [Docker Crash Course #7 - Starting & Stopping Containers](https://www.youtube.com/watch?v=ZPEpreOpqao&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=7)
 
+<!--
+
 ### Create a new container
 
 In Docker Desktop, when you RUN an Image, it will ask you for more infomation including ports, this will expose the application. after setting this up, the container will be created.
@@ -167,11 +175,15 @@ open up a new tab/terminal, to stop a container
 
 `docker run --name myapp_container2 -p 4000:4000 -d myapp` 
 
+-->
+
 <!--
 
     Found this difficult to understand....
 
 -->
+
+<!--
 
 localhost:4000
 
@@ -181,7 +193,11 @@ docker ps -a
 
 `docker start myapp_container2`
 
+-->
+
 ## [Docker Crash Course #8 - Layer Caching](https://www.youtube.com/watch?v=_nMpndIyaBU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=8)
+
+<!--
 
 Each line, is a new layer to the docker image in the Dockerfile.
 Changing the image.
@@ -196,7 +212,11 @@ The more layers the longer it will take to create, so if somethnig has already b
 
 Changing the order will improve the speed of the docker image being created.
 
+-->
+
 ## [Docker Crash Course #9 - Managing Images & Containers](https://www.youtube.com/watch?v=4XsjXscp70o&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=9)
+
+<!--
 
 `docker images` to show all the images
 
@@ -275,7 +295,11 @@ package.json
 
 Docker compose, improves this process.
 
+-->
+
 ## [Docker Crash Course #11 - Docker Compose](https://www.youtube.com/watch?v=TSySwrQcevM&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=12)
+
+<!--
 
 docker-compose.yaml
 
@@ -298,7 +322,11 @@ In terminal `docker system prune`
 
 `docker-compose down --rmi all -v`
 
+-->
+
 ## [Docker Crash Course #12 - Dockerizing a React App](https://www.youtube.com/watch?v=QePBbG5MoKk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=12)
+
+<!--
 
 .dockerignore
 
@@ -346,7 +374,11 @@ docker-compose.yaml
 
 docker-compose up
 
+-->
+
 ## [Docker Crash Course #13 - Sharing Images on Docker Hub](https://www.youtube.com/watch?v=YS35VHsbS-0&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=13)
+
+<!--
 
 hub.docker.com
 
@@ -376,3 +408,5 @@ Other topics include
 
 Deploying &
 Kubernetes
+
+-->
