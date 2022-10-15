@@ -2,8 +2,9 @@
 
 ## [Docker Crash Course #1 - What is Docker?](https://www.youtube.com/watch?v=31ieHmcTUOk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=1)
 
-- Docker is used to save setup time for a project.
-- Virtual machines has its own Operating System and is typically slower, docker containers use the hosts Operating System kernal so are often quicker.
+Docker is used to save setup time for a project.
+
+Virtual machines have there own Operating System and is typically slower, docker containers use the hosts Operating System (kernal) so are often quicker.
 
 **warning:** the hosts Operating System kernal is different on for Windows compared to Apple or other linux based Operating Systems.
 
@@ -176,159 +177,28 @@ To delete all images, containers and volumns you can run the command `docker sys
 
 ## [Docker Crash Course #10 - Volumes](https://www.youtube.com/watch?v=Wh4BcFFr6Fc&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=10)
 
-<!--
-
-Images when created are read only
-
-`docker ps -a`
-
-`docker start myapp_container`
+Images when created are READ ONLY.
 
 `docker run` will generate a new container,
 
 `docker start` will start a existing container.
 
-Need a new image each time you make a change to the code..
-Which means destorying and recreating the image.
+IF you have more than 1 container you can reference the container name `docker start myapp_container`
 
-OR you can use Volumes
+PROBLEM: what if you need a new image each time you make a change to the code...
 
-In the Dockerfile
+This means you would need to destory and recreate the image each time.
 
-`FROM ...`
-
-`RUN npm install -g nodemon`
-
-`CMD ["npm", "run", "dev"]`
-
-package.json
-
-`"scripts": {`
-    `"dev": "nodemon -L app.js"`
-`},`
-
-(for windows you need the extra flag -L)
-
-`docker build -t myapp:nodemon .`
-
-`docker stop myapp:nodemon`
-
-`docker run --name myapp_container -p 4000:4000 --rm -v {absolutePath}:/app -v /app/node_modules myapp:v1`
-
-Docker compose, improves this process.
-
--->
+...
 
 ## [Docker Crash Course #11 - Docker Compose](https://www.youtube.com/watch?v=TSySwrQcevM&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=12)
 
-<!--
-
-docker-compose.yaml
-
-`version: "3.8"`
-`services: `
-`   api: ` indent is important to yaml files.
-`       build: {relativePath ./api}`
-`       container_name: api_container`
-`       ports:`
-`           - '4000:4000'`
-`       volumnes:`
-`           - {relativePath ./api:/app}`
-`           - {relativePath ./app/node_modules}`
-
-In terminal `docker system prune`
-
-`docker-compose up`
-
-`docker-compose down`
-
-`docker-compose down --rmi all -v`
-
--->
+...
 
 ## [Docker Crash Course #12 - Dockerizing a React App](https://www.youtube.com/watch?v=QePBbG5MoKk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=12)
 
-<!--
-
-.dockerignore
-
-node_modules
-
-Dockerfile
-
-FROM node:17-alpine
-
-WORKDIR /app
-
-COPY package.json .
-
-RUN npm install
-
-COPY . .
-
-EXPOSE 3000
-
-CMD ["npm", "start"]
-
-
-docker-compose.yaml
-
-`version: "3.8"`
-`services: `
-`   api: `
-`       build: {relativePath ./api}`
-`       container_name: api_container`
-`       ports:`
-`           - '4000:4000'`
-`       volumnes:`
-`           - {relativePath ./api:/app}`
-`           - {relativePath ./app/node_modules}`
-`   myblog: `
-`       build: {relativePath ./myblog}`
-`       container_name: myblog_container`
-`       ports:`
-`           - '3000:3000'`
-`       volumnes:` // remove on windows
-`           - {relativePath ./myblog:/app}` // wont work on windows.
-`           - {relativePath ./app/node_modules}`
-`       stdin_open: true`
-`       tty: true`
-
-docker-compose up
-
--->
+...
 
 ## [Docker Crash Course #13 - Sharing Images on Docker Hub](https://www.youtube.com/watch?v=YS35VHsbS-0&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=13)
 
-<!--
-
-hub.docker.com
-
-login/signup
-
-create repository
-
-docker push {username}/{repo-name}
-
-`docker build -t {username}/{repo-name} .`
-
-`docker images`
-
-`docker login`
-
-`docker push {username}/{repo-name}`
-
-refresh docker hub. you will see it on docker hub.
-
-`docker image rm {username}/{repo-name}`
-
-`docker images`
-
-`docker pull {username}/{repo-name}`
-
-Other topics include
-
-Deploying &
-Kubernetes
-
--->
+...
