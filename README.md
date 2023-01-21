@@ -1,3 +1,26 @@
+# Playground for [docker]
+
+A place to learn more about [docker], and try things.
+
+## Notes
+<!--
+- [ ] [course-title; author](link)
+- [x] [course-title; author](link) *last updated: ##/##/##*
+-->
+## Projects
+<!--
+- [ ] project-title (file-path)
+- [ ] [course-title; author](notes-link) project-title (file-path)
+- [ ] [course-title; author](notes-link) [projects](link)
+- [x] project-title (file-path) *last updated: ##/##/##*
+-->
+## Resources
+<!--
+- [ ] [title](link)
+- [x] [title](link) *last review: ##/##/##*
+-->
+
+<!--
 # Playground for Docker
 
 A place to learn more about docker, and try things.
@@ -17,6 +40,9 @@ A place to learn more about docker, and try things.
 - [ ] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; NetworkChuck](https://www.youtube.com/watch?v=eGz9DS-aIeY)
 - [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo) 
 - [ ] [Docker Tutorials; The New Boston]()
+-->
 <!--
 https://www.youtube.com/user/thenewboston/playlists
 -->
+
+
