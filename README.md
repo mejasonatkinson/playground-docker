@@ -10,3 +10,9 @@ A place to learn more about docker, and try things.
 ## Projects
 
 ## Resources
+
+- [ ] Fireship https://www.youtube.com/watch?v=Gjnup-PuquQ
+
+- [ ] Fireship https://www.youtube.com/watch?v=gAkwW2tuIqE
+
+- [ ] Fireship https://www.youtube.com/watch?v=3OP-q55hOUI
