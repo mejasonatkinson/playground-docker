@@ -5,9 +5,23 @@ A place to learn more about docker, and try things.
 ## Notes
 
 - [ ] [Docker in 100 Seconds; Fireship](notes/docker-in-100-seconds--fireship.md)
+- [ ] [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial; Fireship]()
+- [ ] [Cloud Run QuickStart - Docker to Serverless; Fireship]()
 - [ ] [Docker Crash Course Tutorial; The Net Ninja](notes/docker-crash-course-tutorial--the-net-ninja.md)
 
 ## Projects
+
+- use in docker
+    - node
+        - strapi
+    - php
+        - Laravel
+        - Symfony
+        - wordpress
+        - craft cms
+    - python
+        - django
+            - wagtail
 
 ## Resources
 
