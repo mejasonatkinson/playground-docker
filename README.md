@@ -15,13 +15,12 @@ A place to learn more about docker, and try things.
 - [ ] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](notes/docker-compose-will-blow-your-mind-a-tutorial--network-chuck.md)
 - [ ] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](notes/docker-networking-is-crazy-you-need-to-learn-it--network-chuck.md)
 
-- [ ] [Docker Tutorial for Beginners; Programming with Mosh]()
+- [ ] [Docker Tutorial for Beginners; Programming with Mosh](notes/docker-tutorial-for-beginners--programming-with-mosh.md)
 
 *Not technically Docker...*
 
-- [ ] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck)
-
-- [ ] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck]()
+- [ ] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md)
+- [ ] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md)
 
 ## Projects
 
