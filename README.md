@@ -4,7 +4,7 @@ A place to learn more about docker, and try things.
 
 ## Notes
 
-- [ ] [Docker in 100 Seconds; Fireship](notes/docker-in-100-seconds--fireship.md)
+- [x] [Docker in 100 Seconds; Fireship](notes/docker-in-100-seconds--fireship.md) *last updated: 19/02/23*
 - [ ] [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial; Fireship](notes/learn-docker-in-7-easy-steps-full-beginners-tutorial--fireship.md)
 - [ ] [Cloud Run QuickStart - Docker to Serverless; Fireship](notes/cloud-run-quickstart-docker-to-serverless--fireship.md)
 
@@ -38,7 +38,7 @@ A place to learn more about docker, and try things.
 
 ## Resources
 
-- [ ] [Docker in 100 Seconds; Fireship](https://www.youtube.com/watch?v=Gjnup-PuquQ)
+- [x] [Docker in 100 Seconds; Fireship](https://www.youtube.com/watch?v=Gjnup-PuquQ) *last reviewed: 19/02/23*
 - [ ] [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial; Fireship](https://www.youtube.com/watch?v=gAkwW2tuIqE)
 - [ ] [Cloud Run QuickStart - Docker to Serverless; Fireship](https://www.youtube.com/watch?v=3OP-q55hOUI)
 
