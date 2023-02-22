@@ -10,7 +10,7 @@ A place to learn more about docker, and try things.
 
 - [ ] [Docker Crash Course Tutorial; The Net Ninja](notes/docker-crash-course-tutorial--the-net-ninja.md)
 
-- [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](notes/you-need-to-learn-docker-right-now-docker-containers-101--network-chuck.md)
+- [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](notes/you-need-to-learn-docker-right-now-docker-containers-101--network-chuck.md) *last updated: 22/02/23*
 - [ ] [learning Docker is HARD!! (this makes it easy); Network Chuck](notes/learning-docker-is-hard-this-makes-it-easy--network-chuck.md)
 - [ ] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](notes/docker-compose-will-blow-your-mind-a-tutorial--network-chuck.md)
 - [ ] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](notes/docker-networking-is-crazy-you-need-to-learn-it--network-chuck.md)
@@ -44,7 +44,7 @@ A place to learn more about docker, and try things.
 
 - [ ] [Docker Crash Course Tutorial; The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7)
 
-- [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](https://www.youtube.com/watch?v=eGz9DS-aIeY)
+- [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](https://www.youtube.com/watch?v=eGz9DS-aIeY) *last reviewed: 22/02/23*
 - [ ] [learning Docker is HARD!! (this makes it easy); Network Chuck](https://www.youtube.com/watch?v=iX0HbrfRyvc)
 - [ ] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](https://www.youtube.com/watch?v=DM65_JyGxCo)
 - [ ] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](https://www.youtube.com/watch?v=bKFMS5C4CG0)
