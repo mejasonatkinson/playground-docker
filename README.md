@@ -8,10 +8,11 @@ A place to learn more about docker, and try things.
 - [x] [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial; Fireship](notes/learn-docker-in-7-easy-steps-full-beginners-tutorial--fireship.md) *last updated: 20/02/23*
 - [x] [Cloud Run QuickStart - Docker to Serverless; Fireship](notes/cloud-run-quickstart-docker-to-serverless--fireship.md) *last updated: 21/02/23*
 
-- [ ] [Docker Crash Course Tutorial; The Net Ninja](notes/docker-crash-course-tutorial--the-net-ninja.md)
+- [ ] [Docker Crash Course Tutorial; The Net Ninja](notes/docker-crash-course-tutorial--the-net-ninja.md) 
+
 
 - [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](notes/you-need-to-learn-docker-right-now-docker-containers-101--network-chuck.md) *last updated: 22/02/23*
-- [ ] [learning Docker is HARD!! (this makes it easy); Network Chuck](notes/learning-docker-is-hard-this-makes-it-easy--network-chuck.md)
+- [x] [learning Docker is HARD!! (this makes it easy); Network Chuck](notes/learning-docker-is-hard-this-makes-it-easy--network-chuck.md) *last updated: 23/02/23*
 - [ ] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](notes/docker-compose-will-blow-your-mind-a-tutorial--network-chuck.md)
 - [ ] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](notes/docker-networking-is-crazy-you-need-to-learn-it--network-chuck.md)
 
@@ -45,7 +46,7 @@ A place to learn more about docker, and try things.
 - [ ] [Docker Crash Course Tutorial; The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7)
 
 - [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](https://www.youtube.com/watch?v=eGz9DS-aIeY) *last reviewed: 22/02/23*
-- [ ] [learning Docker is HARD!! (this makes it easy); Network Chuck](https://www.youtube.com/watch?v=iX0HbrfRyvc)
+- [x] [learning Docker is HARD!! (this makes it easy); Network Chuck](https://www.youtube.com/watch?v=iX0HbrfRyvc) *last reviewed: 23/02/23*
 - [ ] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](https://www.youtube.com/watch?v=DM65_JyGxCo)
 - [ ] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](https://www.youtube.com/watch?v=bKFMS5C4CG0)
 
