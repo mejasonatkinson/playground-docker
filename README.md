@@ -52,6 +52,10 @@ A place to learn more about docker, and try things.
 
 - [ ] [Docker Tutorial for Beginners; Programming with Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
 
+- [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+
+- [ ] [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org](https://www.codecademy.com/resources/blog/docker-interview-questions-that-you-can-practice-to-ace-your-technical-interview/)
+
 *Not technically Docker...*
 
 - [ ] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw)
