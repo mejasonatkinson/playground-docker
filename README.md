@@ -13,7 +13,7 @@ A place to learn more about docker, and try things.
 
 - [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](notes/you-need-to-learn-docker-right-now-docker-containers-101--network-chuck.md) *last updated: 22/02/23*
 - [x] [learning Docker is HARD!! (this makes it easy); Network Chuck](notes/learning-docker-is-hard-this-makes-it-easy--network-chuck.md) *last updated: 23/02/23*
-- [ ] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](notes/docker-compose-will-blow-your-mind-a-tutorial--network-chuck.md)
+- [x] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](notes/docker-compose-will-blow-your-mind-a-tutorial--network-chuck.md) *last updated: 24/02/23*
 - [ ] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](notes/docker-networking-is-crazy-you-need-to-learn-it--network-chuck.md)
 
 - [ ] [Docker Tutorial for Beginners; Programming with Mosh](notes/docker-tutorial-for-beginners--programming-with-mosh.md)
@@ -47,7 +47,7 @@ A place to learn more about docker, and try things.
 
 - [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](https://www.youtube.com/watch?v=eGz9DS-aIeY) *last reviewed: 22/02/23*
 - [x] [learning Docker is HARD!! (this makes it easy); Network Chuck](https://www.youtube.com/watch?v=iX0HbrfRyvc) *last reviewed: 23/02/23*
-- [ ] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](https://www.youtube.com/watch?v=DM65_JyGxCo)
+- [x] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](https://www.youtube.com/watch?v=DM65_JyGxCo) *last reviewed: 24/02/23*
 - [ ] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](https://www.youtube.com/watch?v=bKFMS5C4CG0)
 
 - [ ] [Docker Tutorial for Beginners; Programming with Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
