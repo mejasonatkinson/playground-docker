@@ -20,7 +20,7 @@ A place to learn more about docker, and try things.
 
 *Not technically Docker...*
 
-- [ ] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md)
+- [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md) *last updated: 26/02/23*
 - [ ] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md)
 
 ## Projects
@@ -58,7 +58,7 @@ A place to learn more about docker, and try things.
 
 *Not technically Docker...*
 
-- [ ] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw)
+- [ ] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw) *last reviewed: 26/02/23*
 - [ ] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](https://www.youtube.com/watch?v=wX75Z-4MEoM)
 
 
