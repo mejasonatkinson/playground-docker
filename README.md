@@ -10,7 +10,6 @@ A place to learn more about docker, and try things.
 
 - [ ] [Docker Crash Course Tutorial; The Net Ninja](notes/docker-crash-course-tutorial--the-net-ninja.md) 
 
-
 - [x] [you need to learn Docker RIGHT NOW!! // Docker Containers 101; Network Chuck](notes/you-need-to-learn-docker-right-now-docker-containers-101--network-chuck.md) *last updated: 22/02/23*
 - [x] [learning Docker is HARD!! (this makes it easy); Network Chuck](notes/learning-docker-is-hard-this-makes-it-easy--network-chuck.md) *last updated: 23/02/23*
 - [x] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](notes/docker-compose-will-blow-your-mind-a-tutorial--network-chuck.md) *last updated: 24/02/23*
@@ -21,7 +20,7 @@ A place to learn more about docker, and try things.
 *Not technically Docker...*
 
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md) *last updated: 26/02/23*
-- [ ] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md)
+- [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md) *last updated: 27/02/23*
 
 ## Projects
 
@@ -58,8 +57,8 @@ A place to learn more about docker, and try things.
 
 *Not technically Docker...*
 
-- [ ] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw) *last reviewed: 26/02/23*
-- [ ] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](https://www.youtube.com/watch?v=wX75Z-4MEoM)
+- [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw) *last reviewed: 26/02/23*
+- [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](https://www.youtube.com/watch?v=wX75Z-4MEoM) *last reviewed: 27/02/23*
 
 
 
