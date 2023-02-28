@@ -1,33 +1,13 @@
 
 # [learning Docker is HARD!! (this makes it easy)](https://www.youtube.com/watch?v=iX0HbrfRyvc)
 
-Portainer
+Ths tutorial talks about:
 
-- Portainer Server (for local hosts)
-- Porttainer Agent (for remote hosts)
+- Linode
+- Linux
+- Portainer
+- Docker
 
-https://www.linode.com/
+To follow along requires a level of understand of all 4 of these systems/tools... which sadly I don't currently have.
 
-`sudo apt update`
-
-`sudo apt install docker.io -y`
-
-`docker run -itd -p 80:80 nginx`
-
-`docker ps`
-
-`docker volume create portainer_stuff`
-
-`docker run -d -p 9443:9443 -p 8000:8000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest`
-
-Must be signed up to his website to see more info....
-
-Exposing ports: `9443` and `8000`
-
-`docker ps`
-
-https://ip:9443
-
-Sign up to portainer.io
-
-Select portainer
+For this reason, you will not find any more notes here until I feel more capable to do so.
