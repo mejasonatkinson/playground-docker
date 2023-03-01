@@ -17,6 +17,10 @@ A place to learn more about docker, and try things.
 
 - [ ] [Docker Tutorial for Beginners; Programming with Mosh](notes/docker-tutorial-for-beginners--programming-with-mosh.md)
 
+- [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org]()
+
+- [ ] [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org]()
+
 *Not technically Docker...*
 
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md) *last updated: 26/02/23*
@@ -24,17 +28,36 @@ A place to learn more about docker, and try things.
 
 ## Projects
 
-- USE DOCKER WITH:
-    - node
-        - strapi
-    - php
-        - Laravel
-        - Symfony
-        - wordpress
-        - craft cms
-    - python
-        - django
-            - wagtail
+- [ ] PHP in docker
+- [ ] PHP in docker-compose
+
+<!-- - [ ] Symfony in docker? -->
+<!-- - [ ] Symfony in docker-compose? -->
+
+<!-- - [ ] Laravel in docker? -->
+<!-- - [ ] Laravel in docker-compose? -->
+
+- [ ] Wordpress in docker-compose
+
+<!-- - [ ] craftcms in docker-compose -->
+
+- [ ] Python in docker
+
+<!-- - [ ] Python in docker-compose? -->
+
+<!-- - [ ] Flask in docker? -->
+<!-- - [ ] Flask in docker-compose? -->
+
+<!-- - [ ] Django in docker? -->
+<!-- - [ ] Django in docker-compose? -->
+
+<!-- - [ ] Wagtail in docker-compose? -->
+
+<!-- - [ ] Node in docker -->
+<!-- - [ ] Node in docker-compose -->
+
+<!-- - [ ] VueJS in docker -->
+<!-- - [ ] VueJS in docker-compose -->
 
 ## Resources
 
