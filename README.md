@@ -28,8 +28,23 @@ A place to learn more about docker, and try things.
 
 ## Projects
 
-- [ ] PHP in docker
-- [ ] PHP in docker-compose
+- [x] [PHP in docker](projects/php-with-docker/)
+- [x] [PHP in docker-compose](projects/php-with-docker-compose/)
+- [ ] Wordpress in docker-compose
+    - [ ] [Version 1](projects/wordpress-with-docker-compose-1/)
+    - [ ] [Version 2](projects/wordpress-with-docker-compose-2/)
+    - [ ] [Version 3](projects/wordpress-with-docker-compose-3/)
+    - [ ] [Version 4... (my own design)](projects/wordpress-with-docker-compose-4/)
+- [ ] [Node in docker]()
+- [ ] [Node in docker-compose]()
+- [ ] [VueJS in docker]()
+- [ ] [VueJS in docker-compose]()
+- [ ] [Python in docker](projects/python-with-docker/)
+
+<!-- - [ ] Django in docker? -->
+<!-- - [ ] Django in docker-compose? -->
+
+<!-- - [ ] Wagtail in docker-compose? -->
 
 <!-- - [ ] Symfony in docker? -->
 <!-- - [ ] Symfony in docker-compose? -->
@@ -37,27 +52,10 @@ A place to learn more about docker, and try things.
 <!-- - [ ] Laravel in docker? -->
 <!-- - [ ] Laravel in docker-compose? -->
 
-- [ ] Wordpress in docker-compose
-
 <!-- - [ ] craftcms in docker-compose -->
-
-- [ ] Python in docker
-
-<!-- - [ ] Python in docker-compose? -->
 
 <!-- - [ ] Flask in docker? -->
 <!-- - [ ] Flask in docker-compose? -->
-
-<!-- - [ ] Django in docker? -->
-<!-- - [ ] Django in docker-compose? -->
-
-<!-- - [ ] Wagtail in docker-compose? -->
-
-<!-- - [ ] Node in docker -->
-<!-- - [ ] Node in docker-compose -->
-
-<!-- - [ ] VueJS in docker -->
-<!-- - [ ] VueJS in docker-compose -->
 
 ## Resources
 
