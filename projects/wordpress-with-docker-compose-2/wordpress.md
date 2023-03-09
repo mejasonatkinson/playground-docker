@@ -8,7 +8,7 @@ The webiste container, can be scene at [localhost:8000](localhost:8000).
 
 The phpmyadmin container, can be scene at [localhost:8080](localhost:8080).
 
-This project was made from a tutorial by [???](???) called: [Quick Wordpress Setup With Docker](https://www.youtube.com/watch?v=pYhLEV-sRpY). I had to modify the file path from the tutorial to get this to work on windows from `./:var/www/html` to `./:/var/www/html` inside the docker-compose.yml file. I also created a sub directory to better organise the code: `./wordpress/:/var/www/html`.
+This project was made from a tutorial by [Traversy Media](https://www.youtube.com/@TraversyMedia) called: [Quick Wordpress Setup With Docker](https://www.youtube.com/watch?v=pYhLEV-sRpY). I had to modify the file path from the tutorial to get this to work on windows from `./:var/www/html` to `./:/var/www/html` inside the docker-compose.yml file. I also created a sub directory to better organise the code: `./wordpress/:/var/www/html`.
 
 ### Why use docker-compose?
 
