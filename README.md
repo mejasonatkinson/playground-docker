@@ -13,8 +13,7 @@ A place to learn more about docker, and try things.
 - [x] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](notes/docker-compose-will-blow-your-mind-a-tutorial--network-chuck.md) *last updated: 24/02/23*
 - [x] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](notes/docker-networking-is-crazy-you-need-to-learn-it--network-chuck.md) *last updated: 25/02/23*
 - [x] [Docker Tutorial for Beginners; Programming with Mosh](notes/docker-tutorial-for-beginners--programming-with-mosh.md) *last updated: 09/03/23*
-- [ ] [Docker Compose Tutorial; Programming with Mosh](notes/docker-compose-tutorial--programming-with-mosh.md)
-- [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](notes/docker-tutorial-for-beginners-a-full-devops-course-on-how-to-run-applications-in-containers--freecodecamp-org.md)
+- [x] [Docker Compose Tutorial; Programming with Mosh](notes/docker-compose-tutorial--programming-with-mosh.md) *last updated: 10/03/23*
 - [ ] [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org](notes/12-Docker-Interview-Questions-That-You-Can-Practice-to-Ace-Your-Technical-Interview--freeCodeCamp-org.md)
 - [ ] [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]; TechWorld with Nana]()
 - [ ] [Docker Crash Course for Absolute Beginners[NEW]; TechWorld with Nana]()
@@ -28,7 +27,7 @@ A place to learn more about docker, and try things.
 - [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](notes/docker-tutorial-for-beginners-a-full-devops-course-on-how-to-run-applications-in-containers--freecodecamp-org.md)
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md) *last updated: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md) *last updated: 27/02/23*
-- [ ] [DDEV]()
+- [ ] DDEV
 - [ ] [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org]()
 
 ## Projects
@@ -39,6 +38,7 @@ A place to learn more about docker, and try things.
 - [ ] [Symfony in docker-compose](projects/)
 - [ ] [Laravel in docker](projects/)
 - [ ] [Laravel in docker-compose](projects/)
+- [ ] [Drupal in docker-compose](projects/)
 - [ ] [Wordpress in docker-compose](projects/)
     - [x] [Version 1](projects/wordpress-with-docker-compose-1/)
     - [x] [Version 2](projects/wordpress-with-docker-compose-2/)
@@ -50,6 +50,8 @@ A place to learn more about docker, and try things.
 - [ ] [Node in docker-compose](projects/)
 - [ ] [VueJS in docker](projects/)
 - [ ] [VueJS in docker-compose](projects/)
+- [ ] [StencilJS in docker](projects/)
+- [ ] [StencilJS in docker-compose](projects/)
 - [ ] [Phaser in docker](projects/)
 - [ ] [Phaser in docker-compose](projects/)
 - [ ] [Python in docker](projects/python-with-docker/)
@@ -69,9 +71,9 @@ A place to learn more about docker, and try things.
 - [x] [learning Docker is HARD!! (this makes it easy); Network Chuck](https://www.youtube.com/watch?v=iX0HbrfRyvc) *last reviewed: 23/02/23*
 - [x] [Docker Compose will BLOW your MIND!! (a tutorial); Network Chuck](https://www.youtube.com/watch?v=DM65_JyGxCo) *last reviewed: 24/02/23*
 - [x] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](https://www.youtube.com/watch?v=bKFMS5C4CG0) *last reviewed: 25/02/23*
-- [ ] [Docker Tutorial for Beginners; Programming with Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
-- [ ] [Docker Compose Tutorial; Programming with Mosh](https://www.youtube.com/watch?v=HG6yIjZapSA)
-- [ ] [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org](https://www.codecademy.com/resources/blog/docker-interview-questions-that-you-can-practice-to-ace-your-technical-interview/)
+- [x] [Docker Tutorial for Beginners; Programming with Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI) *last reviewed: 09/03/23*
+- [x] [Docker Compose Tutorial; Programming with Mosh](https://www.youtube.com/watch?v=HG6yIjZapSA)
+- [x] [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org](https://www.codecademy.com/resources/blog/docker-interview-questions-that-you-can-practice-to-ace-your-technical-interview/)
 - [ ] [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]; TechWorld with Nana](https://www.youtube.com/watch?v=3c-iBn73dDE)
 - [ ] [Docker Crash Course for Absolute Beginners[NEW]; TechWorld with Nana](https://www.youtube.com/watch?v=pg19Z8LL06w)
 - [ ] [Exploring Docker [1] - Getting Started; Traversy Media](https://www.youtube.com/watch?v=Kyx2PsuwomE)
@@ -84,5 +86,5 @@ A place to learn more about docker, and try things.
 - [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw) *last reviewed: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](https://www.youtube.com/watch?v=wX75Z-4MEoM) *last reviewed: 27/02/23*
-- [ ] [DDEV]()
+- [ ] DDEV
 - [ ] [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org](https://www.youtube.com/watch?v=d6WC5n9G_sM)
