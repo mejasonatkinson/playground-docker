@@ -14,13 +14,13 @@ A place to learn more about docker, and try things.
 - [x] [Docker networking is CRAZY!! (you NEED to learn it); Network Chuck](notes/docker-networking-is-crazy-you-need-to-learn-it--network-chuck.md) *last updated: 25/02/23*
 - [x] [Docker Tutorial for Beginners; Programming with Mosh](notes/docker-tutorial-for-beginners--programming-with-mosh.md) *last updated: 09/03/23*
 - [x] [Docker Compose Tutorial; Programming with Mosh](notes/docker-compose-tutorial--programming-with-mosh.md) *last updated: 10/03/23*
-- [ ] [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org](notes/12-Docker-Interview-Questions-That-You-Can-Practice-to-Ace-Your-Technical-Interview--freeCodeCamp-org.md)
-- [ ] [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]; TechWorld with Nana]()
-- [ ] [Docker Crash Course for Absolute Beginners[NEW]; TechWorld with Nana]()
-- [ ] [Exploring Docker [1] - Getting Started; Traversy Media]()
-- [ ] [Exploring Docker [2] - Docker Compose With Node & MongoDB; Traversy Media]()
-- [ ] [Intro to Docker [with Java Examples]; JetBrains]()
-- [ ] [Intro to Docker - Part 2 (Networking, Docker Compose); JetBrains]()
+- [ ] [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org](notes/12-docker-interview-questions-that-you-can-practice-to-ace-your-technical-interview--freeCodeCamp-org.md)
+- [ ] [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]; TechWorld with Nana](notes/docker-tutorial-for-beginners-full-course-in-3-hours--techworld-with-nana.md)
+- [ ] [Docker Crash Course for Absolute Beginners[NEW]; TechWorld with Nana](notes/docker-crash-course-for-absolute-beginners-new--techworld-with-nana.md)
+- [ ] [Exploring Docker [1] - Getting Started; Traversy Media](notes/exploring-docker-1-getting-started--traversy-media.md)
+- [ ] [Exploring Docker [2] - Docker Compose With Node & MongoDB; Traversy Media](notes/exploring-docker-2-docker-compose-with-node-&-mongodb--traversy-media.md)
+- [ ] [Intro to Docker [with Java Examples]; JetBrains](notes/intro-to-docker-with-java-examples--jetbrains.md)
+- [ ] [Intro to Docker - Part 2 (Networking, Docker Compose); JetBrains](notes/intro-to-docker-part-2-networking-docker-compose--jetbrains.md)
 
 *Not technically Docker...*
 
@@ -28,7 +28,7 @@ A place to learn more about docker, and try things.
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md) *last updated: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md) *last updated: 27/02/23*
 - [ ] DDEV
-- [ ] [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org]()
+- [ ] [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org](kubernetes-course-full-beginners-tutorial-containerize-your-apps--freecodecamp-org.md)
 
 ## Projects
 
@@ -38,13 +38,16 @@ A place to learn more about docker, and try things.
 - [ ] [Symfony in docker-compose](projects/)
 - [ ] [Laravel in docker](projects/)
 - [ ] [Laravel in docker-compose](projects/)
+- [ ] [Drupal in DDEV](projects/)
 - [ ] [Drupal in docker-compose](projects/)
+- [ ] [Wordpress in DDEV](projects/)
 - [ ] [Wordpress in docker-compose](projects/)
     - [x] [Version 1](projects/wordpress-with-docker-compose-1/)
     - [x] [Version 2](projects/wordpress-with-docker-compose-2/)
         - [ ] [Version 2a](projects/wordpress-with-docker-compose-2a/) *doesn't work!*
     - [x] [Version 3](projects/wordpress-with-docker-compose-3/)
     - [ ] [Version 4... (my own design)](projects/wordpress-with-docker-compose-4/) *doesn't work!*
+- [ ] [CraftCMS in DDEV](projects/)
 - [ ] [CraftCMS in docker-compose](projects/)
 - [ ] [Node in docker](projects/)
 - [ ] [Node in docker-compose](projects/)
@@ -86,5 +89,7 @@ A place to learn more about docker, and try things.
 - [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw) *last reviewed: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](https://www.youtube.com/watch?v=wX75Z-4MEoM) *last reviewed: 27/02/23*
-- [ ] DDEV
 - [ ] [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org](https://www.youtube.com/watch?v=d6WC5n9G_sM)
+- [ ] [DDEV](https://ddev.com/)
+- [ ] [What’s so different about DDEV?; DDEV](https://ddev.com/blog/whats-so-different-about-ddev-local/)
+- [ ] [Get Started; DDEV](https://ddev.com/get-started/)

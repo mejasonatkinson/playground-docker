@@ -1,0 +1,1 @@
+# [12 Docker Interview Questions That You Can Practice to Ace Your Technical Interview; freeCodeCamp.org](https://www.codecademy.com/resources/blog/docker-interview-questions-that-you-can-practice-to-ace-your-technical-interview/)
