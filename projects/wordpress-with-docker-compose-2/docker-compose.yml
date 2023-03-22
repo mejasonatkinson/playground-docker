@@ -38,9 +38,7 @@ services:
       - '8000:80'
     restart: always
     # /www/html is the web route for apache
-    volumes: ['./wordpress/:/var/www/html']
-    # /:/var/www/html
-    # ./:/var/www/html
+    volumes: ['./wordpress/:/var/www/html/wp-content']
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
