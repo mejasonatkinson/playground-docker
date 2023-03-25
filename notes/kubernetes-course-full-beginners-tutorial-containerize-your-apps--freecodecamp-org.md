@@ -1,1 +1,0 @@
-# [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org](https://www.youtube.com/watch?v=d6WC5n9G_sM)

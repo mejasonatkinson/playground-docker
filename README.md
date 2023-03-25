@@ -2,7 +2,7 @@
 
 A place to learn more about docker, and try things.
 
-## Notes (20/24)
+## Notes (21/23)
 
 - [x] [Docker in 100 Seconds; Fireship](notes/docker-in-100-seconds--fireship.md) *last updated: 19/02/23*
 - [x] [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial; Fireship](notes/learn-docker-in-7-easy-steps-full-beginners-tutorial--fireship.md) *last updated: 20/02/23*
@@ -27,7 +27,6 @@ A place to learn more about docker, and try things.
 - [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](notes/docker-tutorial-for-beginners-a-full-devops-course-on-how-to-run-applications-in-containers--freecodecamp-org.md) *last updated: *
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md) *last updated: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md) *last updated: 27/02/23*
-- [ ] [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org](kubernetes-course-full-beginners-tutorial-containerize-your-apps--freecodecamp-org.md) *last updated: *
 - [x] [DDEV](notes/ddev--ddev.md) *last updated: *
 - [x] [What’s so different about DDEV?; DDEV](notes/whats-so-different-about-ddev--ddev.md) *last updated: *
 - [x] [Get Started; DDEV](notes/get-started--ddev.md) *last updated: *
@@ -66,7 +65,7 @@ A place to learn more about docker, and try things.
 - [ ] [Flask in docker](projects/)
 - [ ] [Flask in docker-compose](projects/)
 
-## Resources (20/24)
+## Resources (21/23)
 
 - [x] [Docker in 100 Seconds; Fireship](https://www.youtube.com/watch?v=Gjnup-PuquQ) *last reviewed: 19/02/23*
 - [x] [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial; Fireship](https://www.youtube.com/watch?v=gAkwW2tuIqE) *last reviewed: 20/02/23*
@@ -88,10 +87,9 @@ A place to learn more about docker, and try things.
 
 *Not technically Docker...*
 
-- [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo) *last reviewed: *
+- [x] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo) *last reviewed: *
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw) *last reviewed: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](https://www.youtube.com/watch?v=wX75Z-4MEoM) *last reviewed: 27/02/23*
-- [ ] [Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!); freeCodeCamp.org](https://www.youtube.com/watch?v=d6WC5n9G_sM) *last reviewed: *
 - [x] [DDEV](https://ddev.com/) *last reviewed: *
 - [x] [What’s so different about DDEV?; DDEV](https://ddev.com/blog/whats-so-different-about-ddev-local/) *last reviewed: *
 - [x] [Get Started; DDEV](https://ddev.com/get-started/) *last reviewed: *
