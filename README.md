@@ -21,10 +21,10 @@ A place to learn more about docker, and try things.
 - [x] [Exploring Docker [2] - Docker Compose With Node & MongoDB; Traversy Media](notes/exploring-docker-2-docker-compose-with-node-&-mongodb--traversy-media.md) *last updated: *
 - [x] [Intro to Docker [with Java Examples]; JetBrains](notes/intro-to-docker-with-java-examples--jetbrains.md) *last updated: *
 - [x] [Intro to Docker - Part 2 (Networking, Docker Compose); JetBrains](notes/intro-to-docker-part-2-networking-docker-compose--jetbrains.md) *last updated: *
+- [x] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](notes/docker-tutorial-for-beginners-a-full-devops-course-on-how-to-run-applications-in-containers--freecodecamp-org.md) *last updated: *
 
 *Not technically Docker...*
 
-- [ ] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](notes/docker-tutorial-for-beginners-a-full-devops-course-on-how-to-run-applications-in-containers--freecodecamp-org.md) *last updated: *
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](notes/you-need-to-learn-kubernetes-right-now--network-chuck.md) *last updated: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](notes/you-need-to-learn-virtual-machines-right-now-kali-linux-vm-ubuntu-windows--network-chuck.md) *last updated: 27/02/23*
 - [x] [DDEV](notes/ddev--ddev.md) *last updated: *
@@ -84,10 +84,10 @@ A place to learn more about docker, and try things.
 - [x] [Exploring Docker [2] - Docker Compose With Node & MongoDB; Traversy Media](https://www.youtube.com/watch?v=hP77Rua1E0c) *last reviewed: *
 - [x] [Intro to Docker [with Java Examples]; JetBrains](https://www.youtube.com/watch?v=FzwIs2jMESM) *last reviewed: *
 - [x] [Intro to Docker - Part 2 (Networking, Docker Compose); JetBrains](https://www.youtube.com/watch?v=_m9JYAvFB8s) *last reviewed: *
+- [x] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo) *last reviewed: *
 
 *Not technically Docker...*
 
-- [x] [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers; freeCodeCamp.org](https://www.youtube.com/watch?v=fqMOX6JJhGo) *last reviewed: *
 - [x] [you need to learn Kubernetes RIGHT NOW!!; Network Chuck](https://www.youtube.com/watch?v=7bA0gTroJjw) *last reviewed: 26/02/23*
 - [x] [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows); Network Chuck](https://www.youtube.com/watch?v=wX75Z-4MEoM) *last reviewed: 27/02/23*
 - [x] [DDEV](https://ddev.com/) *last reviewed: *
